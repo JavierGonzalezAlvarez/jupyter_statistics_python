@@ -1,4 +1,7 @@
-# install python and jupiter con Anaconda
+https://numpy.org/
+https://pandas.pydata.org/docs/
+
+# install python and jupiter with Anaconda
 $ cd /tmp
 $ sudo apt install curl
 $ curl https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh --output anaconda.sh
@@ -9,18 +12,14 @@ output: 2b9f088b2022edb474915d9f69a803d6449d5fdb4c303041f60ac4aefcc208bb  anacon
 $ bash anaconda.sh
 <yes>
 
-I'll be in teh directory of Anaconda
+I'll be in the directory of Anaconda
 [/home/javier/anaconda3] >>> 
 Ask me for:
- - Press ENTER to confirm the location
-and then it is intalled
+ - Press ENTER to confirm the location and then it is intalled
 
 Do you wish the installer to initialize Anaconda3
 by running conda init? [yes|no]
 <yes>
-
-# start anaconda
-$ source ~/.bashrc
 
 # look for versions of python
 (base) $ conda search "^python$"
@@ -33,8 +32,11 @@ $ source ~/.bashrc
 (base) $ python --version
     output: 3.9.1 for this ... my_env
 
-# desactivate virtual environment
-(base) $ conda deactivate
+# start anaconda
+$ source ~/.bashrc
 
 # run anaconda
 $ anaconda-navigator
+
+# desactivate anaconda
+(base) $ conda deactivate
